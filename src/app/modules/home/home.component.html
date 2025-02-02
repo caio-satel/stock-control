@@ -18,8 +18,7 @@
 
             </button>
           </div>
-          <span
-            class="flex justify-content-center align-content-center text-align-center mt-3 text-red-600 font-semibold cursor-pointer" (click)="loginCard = !loginCard">
+          <span class="flex justify-content-center align-content-center text-align-center mt-3 text-red-600 font-semibold cursor-pointer" (click)="loginCard = !loginCard">
             Criar conta</span>
         </p-card>
       </form>
@@ -39,12 +38,9 @@
           </div>
 
           <div class="card flex justify-content-center mt-3">
-            <button type="submit" pButton pRipple label="Criar conta" [disabled]="!this.loginForm.valid">
-
-            </button>
+            <button type="submit" pButton pRipple label="Criar conta" [disabled]="!this.signUpForm.valid"></button>
           </div>
-          <span
-            class="flex justify-content-center align-content-center text-align-center mt-3 text-red-600 font-semibold cursor-pointer" (click)="loginCard = !loginCard">Fazer Login</span>
+          <span class="flex justify-content-center align-content-center text-align-center mt-3 text-red-600 font-semibold cursor-pointer" (click)="loginCard = !loginCard">Fazer Login</span>
         </p-card>
       </form>
 
